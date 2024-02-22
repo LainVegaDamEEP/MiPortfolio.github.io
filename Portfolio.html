@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Laín Vega Ocaña</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
+</head>
+<body style="background-image: url('../pagina-main/IMAGENES/Opcion1.jpg'); background-size: cover; background-position: center;">
+
+<header>
+    <div class="container">
+        <div class="avatar">
+            <a href="">
+                <img src="../pagina-main/DATOS/IMG_3468_Original_Original.png" alt="Skytsunami">
+            </a>
+        </div>
+        <div class="content">
+            <h1>Laín Vega Ocaña</h1>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <button id="contact">Datos de Contacto</button><br>
+    <button id="knowledge">Conocimientos de Programación</button><br>
+    <button id="cv">Currículum</button><br>
+    <button id="github">GitHub</button>
+</nav>
+
+<div class="footer">
+    <p>Derechos reservados © 2024</p>
+</div>
+
+<script>
+    document.getElementById('contact').addEventListener('click', function () {
+        window.location.href = 'Datos_de_contacto.html';
+    });
+    document.getElementById('knowledge').addEventListener('click', function () {
+        window.location.href = 'Lenguajes_de_Programacion.html';
+    });
+    document.getElementById('cv').addEventListener('click', function () {
+        window.location.href = 'DATOS/Laín_Vega_Ocaña_CV.pdf';
+    });
+    document.getElementById('github').addEventListener('click', function () {
+        window.location.href = 'https://github.com/LainVegaDamEEP';
+    });
+</script>
+</body>
+</html>
